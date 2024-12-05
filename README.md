@@ -211,4 +211,8 @@ TEMPLATE = app
 SOURCES += main.cpp \
            mywidget.cpp
 HEADERS  += mywidget.h
+
+# 自动开启 MOC 和 UIC 支持
+FORMS += mainwindow.ui # 添加 .ui 文件
+RESOURCES += resources.qrc # 添加 .qrc 资源文件
 ```
